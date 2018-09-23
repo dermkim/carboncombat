@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet type="text/css" href="carboncombat.css">
+		<title>Carbon Combat</title>
+		<script defer type="text/javascript" src="./Calculations.js"></script>
+	</head>
+
+	<body>
+
+		<h1>Time to Combat Carbon!</h1>
+
+		<p>Live a sustainable life and help improve the health of our planet.</p>
+		<p> Traveling has a huge impact on our planet, but it doesn't have to. Individually, we can all take the initiative to help clean up our mess. Invest in carbon offsets and neutralize your trip! </p>
+
+		<h2>What mode of transportation are you concerned about and how far will you be traveling (miles)?</h2>
+
+		<form>
+			<select id = "Transportation">
+				<option value="car">Car</option>
+				<option value="inner city bus">Inner City Bus</option>
+				<option value="long distance bus">Long Distance Bus</option>
+				<option value="commuter rail">Commuter Rail</option>
+				<option value="subway trains">Subway Trains</option>
+				<option value="long distance trains">Long Distance Trains</option>
+				<option value="delivery vans/trucks">Delivery Vans/Trucks</option>
+				<option value="big rigs">Big Rigs</option>
+				<option value="plane">Plane</option>
+			</select>
+			<input type="text" name="Mileage" value "1000">
+		</form>
+		<h2>
+			<button id="formButton">Submit</button></h2>
+
+		<div id="result" style="display: none;">
+			<h3>You should <a href="https://www.terrapass.com/product/productindividuals-families">purchase</a> this much carbon!</h3>
+			<p id="offsetTotal" style="font-size: 48pt; color: white;font-weight: bold;"></p>
+
+		</div>
+	</body>
+</html> 
+
