@@ -1,10 +1,10 @@
 body {
-	background: url(http://auxamisdebacchus.com/wp-content/uploads/Minimalism-Birds-Mountains-Trees-Forest-HD-Artist-4k-Wallpapers-.jpg);
+	background: url("https://source.unsplash.com/1920x1080?nature");
 	background-size: cover;
 }
 
 h1 {
-	color: #130E61;
+	color: white;
 	font-family: "Century Gothic";
 	font-weight: bold;
 	font-size: 400%; 
@@ -14,12 +14,12 @@ h1 {
 p {
 	text-align: center;
 	font-family: "Century Gothic";
-	color: #322179;
+	color: white;
 	font-size: 120%;
 }
 
 h2 {
-	color: #322179;
+	color: white;
 	text-align: center;
 	font-family: "Century Gothic";
 	size: 150%;
@@ -50,16 +50,16 @@ input {
 h3 {
 	text-align: center;
 	font-family: "Century Gothic";
-	font-size: 250%;
+	font-size: 200%;
 	color:white;
 }
 
 button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #FEFDD9;
+  background-color: white;
   border: none;
-  color: #371F71;
+  color: black;
   text-align: center;
   font-size: 28px;
   font-family: "Century Gothic";

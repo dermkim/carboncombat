@@ -36,15 +36,16 @@ function handleButtonClick(event) {
 
 	// Compute Carbon offsets
 	console.log(formData); 
-	answer = (mileage * MODES[mode])/1000;
+	answer = (mileage * MODES[mode]);
 	answer = Math.ceil(answer);
-	answer *= 1000;
+	answer /= 1000;
 	console.log(answer);
 
 	// Display results
 	var resultElem = document.getElementById("result");
 	resultElem.style.display = "block";
-	document.getElementById("offsetTotal").innerHTML = String(answer) + " lbs";
+	document.getElementById("offsetTotal").innerHTML = String(answer);
+
 }
 
 // Attach handleButtonClick to button
